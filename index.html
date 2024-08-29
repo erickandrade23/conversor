@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Convertor de Moedas</h2>
+        <form>
+            <div class="amount">
+                <p>Valor</p>
+                <input type="text" value="1">
+            </div>
+            <div class="convert-box">
+                <div class="from">
+                    <p>de</p>
+                    <div class="select-input">
+                        <img src="https://flagpedia.net/data/flags/icon/80x60/br.webp" alt="">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="reserve"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>para</p>
+                    <div class="select-input">
+                        <img src="https://flagcdn.com/48x36/us.png" alt="">
+                        <select ></select>
+                    </div>
+                </div>
+                <div class="result">Obtendo taxa de câmbio...</div>
+                <button>Obter taxa de câmbio
+                </button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="paises.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
